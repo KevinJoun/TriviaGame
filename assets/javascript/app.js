@@ -81,13 +81,4 @@ $("#results-screen").hide();
         $("#questions-screen").hide();
         $("#results-screen").show();
     })
-
-    
-
-
-
-
-    
-
-
 });

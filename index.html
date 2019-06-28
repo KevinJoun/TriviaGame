@@ -11,15 +11,16 @@
     <script src="assets/javascript/app.js"></script>
 </head>
 <body>
+    <div id = "entire">
     <header>
         <h1>Disney Movie Trivia!</h1>
     </header>
     <main id = "container">
-        <div id = "start-screen">
+        <div id = "start-screen" class="main">
             <h2>Press Start to begin! You will have 60 seconds to answer 6 questions.</h2>
             <button id = "start" type="button" >Start</button>
         </div>
-        <div id = "questions-screen">
+        <div id = "questions-screen" class="main">
                 <h2>Time Remaining: <span id = "timer">60</span></h2>
                 <h2>Cinderella's glass slipper fell off which foot?</h2>
                 <form>
@@ -62,57 +63,13 @@
                 </form>
                 <button id = "submit" type="button" >Submit</button>
         </div>
-        <div id = "results-screen">
+        <div id = "results-screen" class="main">
             <h2>All Done! Here are your results!</h2>
             <h3>Correct Answers: <span id = "correct"></span> </h3>
             <h3>Incorrect Answers: <span id = "incorrect"></span> </h3>
             <h3>Unanswered: <span id = "unanswered"></span> </h3>
         </div>
     </main>
+</div>
 </body>
 </html>
-
-
-
-
-
-        <!-- <h2>Time Remaining: <span id = "timer">60</span></h2>
-        <h2>Cinderella's glass slipper fell off which foot?</h2>
-        <form>
-            <input type="radio" id="Q1A1" name = "question1" value="Left"> Left
-            <input type="radio" id="Q1A2" name = "question1" value="Right"> Right
-          </form> 
-        <h2>What is the name of the boy who owns Buzz Lightyear in the movie Toy Story?</h2>
-        <form>
-            <input type="radio" id="Q2A1" name = "question2" value="Sid"> Sid
-            <input type="radio" id="Q2A2" name = "question2" value="Woody"> Woody
-            <input type="radio" id="Q2A3" name = "question2" value="Andy"> Andy
-            <input type="radio" id="Q2A4" name = "question2" value="James"> James
-        </form>
-        <h2>In the movie Finding Nemo, which country has Nemo been taken to?</h2>
-        <form>
-            <input type="radio" id="Q3A1" name = "question3" value="Hawaii"> Hawaii
-            <input type="radio" id="Q3A2" name = "question3" value="Madagascar"> Madagascar
-            <input type="radio" id="Q3A3" name = "question3" value="New Zealand"> New Zealand
-            <input type="radio" id="Q3A4" name = "question3" value="Australia"> Australia
-        </form>
-        <h2>In Peter Pan, did Captain Hook have a hook for his left hand or his right hand?</h2>
-        <form>
-            <input type="radio" id="Q4A1" name = "question4" value="Left"> Left
-            <input type="radio" id="Q4A2" name = "question4" value="Right"> Right
-            <input type="radio" id="Q4A3" name = "question4" value="Neither, he has both hands"> Neither, he has both hands.
-        </form>
-        <h2>What does Cinderella's fairy godmother turn into a carriage?</h2>
-        <form>
-            <input type="radio" id="Q5A1" name = "question5" value="Pumpkin"> Pumpkin
-            <input type="radio" id="Q5A2" name = "question5" value="Tomato"> Tomato
-            <input type="radio" id="Q5A1" name = "question5" value="Cantaloupe"> Cantaloupe
-            <input type="radio" id="Q5A2" name = "question5" value="Watermelon"> Watermelon
-        </form>
-        <h2>What color are Mickey Mouse's shorts?</h2>
-        <form>
-            <input type="radio" id="Q6A1" name = "question6" value="Blue"> Blue
-            <input type="radio" id="Q6A2" name = "question6" value="Yellow"> Yellow
-            <input type="radio" id="Q6A3" name = "question6" value="Red"> Red
-            <input type="radio" id="Q6A4" name = "question6" value="Orange"> Orange
-        </form> -->
