@@ -1,1 +1,1 @@
-# TriviaGame
+Welcome to my trivia game! The theme of the quiz is Disney movies! This game have 6 questions. You have 60 seconds to answer all 6 questions. You can also submit when you are done. The results will show how many you got correct, incorrect, and unanswered.
