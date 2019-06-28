@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var timerStart = 3;
+    var timerStart = 60;
     var correct = 0;
     var incorrect = 0;
     var unanswered = 0;
@@ -60,8 +60,8 @@ $("#results-screen").hide();
         $(this).parent().hide();     
         $("#questions-screen").show();
         var timer = setInterval(function(){
-            $("#timer").html(timerStart--);
-            if(timerStart === -1){
+            $("#timer").html(--timerStart);
+            if(timerStart === 0){
                 clearInterval(timer);
                 resultsCheck();
                 $("#correct").html(correct);
